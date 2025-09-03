@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+ <title>Practica3.8</title>
+<link href="Practica3.2_styles.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+
+ <h1>Listado de Profesores</h1>
+ <table style="width:100%">
+ <tr>
+ <th>Profesor</th>
+ <th>Despacho</th> 
+ <th>Edificio</th>
+ </tr>
+ <tr>
+ <td>Marta Beltrán</td>
+ <td>122</td> 
+ <td>Departamental II</td>
+ </tr>
+ <tr>
+ <td>Isaac Martín</td>
+ <td>167</td>
+ <td>Departamental II</td>
+ </tr>
+ <tr>
+ <td>Miguel Calvo</td>
+ <td>S/N</td>
+ <td>Departamental II</td>
+ </tr>
+ </table>
+
+ <hr size="1px" color="black">
+
+ <form method="post" action="Practica3.2_control_de_accesos.php">
+  
+ <h2>Acceso alumnos</h2>
+ <label for="usuario">Usuario:</label><br>
+ <input type="usuario" id="usuario" name="usuario"/><br>
+ <label for="password">Contraseña:</label><br>
+ <input type="password" id="password" name="password"/><br><br>
+ <input type="submit" name="submit"  value="Acceder"/>
+
+ </form>
+ <hr size="1px" color="black">
+ 
+ <h3 style="color:#00F">Listado de Prácticas</h3>
+ <ul>
+ <li>Práctica 1</li>
+ <ul>
+ <li>Memoria 1</li>
+ </ul>
+ <li>Práctica 2</li>
+ <ul>
+ <li>Examen tipo test</li>
+ </ul>
+ <li>Práctica 3</li>
+ <ul>
+ <li>Memoria 3.1</li>
+ <li>Memoria 3.2</li>
+ </ul>
+ </ul>
+
+ <hr size="1px" color="black">
+
+ <h2>Enlaces externos</h2>
+ <style>
+ a:link {
+ color: green;
+}
+
+a:hover {
+color:blue;
+}
+a:active{
+color:red;
+}
+</style>
+<h3>Enlaces de interés</h3>
+
+<ul>
+
+<li><p><b><a href="https://www.urjc.es/" target="_blank">Página web de la Universidad Rey Juan Carlos</a></b></p></li> 
+
+
+<li><p><b><a href="https://www.urjc.es/etsii" target="_blank">Página web de la Escuela Técnica Superior de Ingeniería</a></b></p></li> 
+
+
+<li><p><b><a href="https://www.aulavirtual.urjc.es/moodle/login/index.php" target="_blank">Aula Virtual</a></b></p></li>
+
+</ul> 
+
+ <hr size="1px" color="black">
+
+<h2>Presentación<h2>
+
+<audio controls="controls">
+<source  src="Practica3.2_EjemploAudio.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>

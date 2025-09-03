@@ -1,0 +1,15 @@
+table,th,td{
+	background: #f1f1c1;
+ border: 1px solid black ;
+ border-collapse: collapse;
+ border-color:#E90129;
+
+	}
+ th, td {
+ padding: 15px;
+ text-align: left;
+ }
+ table#01 {
+ width: 100%;
+ background-color: #f1f1c1}
+
